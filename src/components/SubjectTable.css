@@ -1,0 +1,92 @@
+/* Style the container */
+.subject-table {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the table heading */
+  .table-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  /* Style the table */
+  .registration-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style table headers */
+  .table-header {
+    background-color: #000B4F;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style table cells */
+  .registration-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style table rows */
+  .registration-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style table rows on hover */
+  .registration-table tbody tr:hover {
+    background-color: #ddd;
+  }
+
+  /* Style the "Edit" and "Delete" buttons */
+.registration-table .edit-button,
+.registration-table .delete-button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #007bff; /* Blue color for "Edit" button */
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style the "Delete" button */
+.registration-table .delete-button {
+  background-color: #dc3545; /* Red color for "Delete" button */
+}
+
+/* Hover effect for buttons */
+.registration-table .edit-button:hover,
+.registration-table .delete-button:hover {
+  background-color: #0056b3; /* Darker blue on hover for "Edit" button */
+}
+
+.registration-table .delete-button:hover {
+  background-color: #c82333; /* Darker red on hover for "Delete" button */
+}
+ 
+  /* Responsive styles */
+  
+  @media only screen and (max-width: 992px) {
+    /* Reduce the maximum width of the table container */
+    .subject-table {
+      max-width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Make the table scroll horizontally on small screens */
+    .registration-table {
+      overflow-x: scroll;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+/* Style the chart container */
+.subject-chart-container {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the chart heading */
+  .chart-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the chart */
+  .chart {
+    width: 100%;
+  }
+  
+  /* Responsive styles */
+  
+  @media only screen and (max-width: 992px) {
+    /* Reduce the maximum width of the chart container */
+    .subject-chart-container {
+      max-width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Make the chart scroll horizontally on small screens */
+    .chart {
+      overflow-x: scroll;
+    }
+  }
+  
